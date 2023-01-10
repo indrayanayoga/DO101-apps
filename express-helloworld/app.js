@@ -2,7 +2,7 @@ var express = require('express');
 const app = express();
 
 app.get('/', function (req, res) {
-  res.send('This is image number 1\n');
+  res.send('This is image number 2\n');
 });
 
 app.get('/test', function (req, res) {
